@@ -12,7 +12,8 @@ const style = StyleSheet.create({
   title: {
     fontSize: 32,
     fontFamily: 'Nunito_700Bold',
-    color: '#156e44'
+    color: '#156e44',
+    textAlign: 'center',
   },
   contentText: {
     justifyContent: 'center',
@@ -33,14 +34,21 @@ const style = StyleSheet.create({
     alignItems: 'center',
     textAlign: 'center',
     borderRadius: 5,
-    marginVertical: 30,
+    marginVertical: 20,
   },
   buttonText: {
     fontSize: 22,
     color: '#FFF',
     fontFamily: 'Archivo_600SemiBold',
-
-  }
+  },
+  input: {
+    borderWidth: 1,
+    borderRadius: 5,
+    width: '70%',
+    height: 50,
+    padding: 10,    
+    fontSize: 22,
+  },
 });
 
 

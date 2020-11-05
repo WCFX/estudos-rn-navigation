@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, SafeAreaView, TouchableOpacity } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { BorderlessButton } from 'react-native-gesture-handler';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 import styles from './style';
 
@@ -11,15 +11,20 @@ const About = () => {
 
   const navigation = useNavigation();
 
+  const route = useRoute();
+
+  const { name } = route.params;
+
   function handleBack(){
     navigation.goBack()
+    // navigation.popToTop() <- Volta para a rota raiz
   }
 
   return(
     <SafeAreaView style={styles.container}>
 
       <View style={styles.contentText}>
-        <Text style={styles.title}>SOBRE</Text>
+        <Text style={styles.title}>Olá {name}</Text>
         <Text style={styles.lorem} >Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nobis dolorem, distinctio tenetur quasi quisquam, adipisci reiciendis 
           soluta ullam repellat aliquid nam voluptates,
