@@ -33,11 +33,24 @@ const style = StyleSheet.create({
     width: 200,
     alignItems: 'center',
     borderRadius: 5,
+    marginVertical: 20,
   },
   buttonText: {
     fontSize: 22,
     color: '#FFF',
     fontFamily: 'Archivo_600SemiBold',
+  },
+  buttonPlus:{ 
+    backgroundColor: '#333',
+    borderStyle: 'dashed',
+    borderColor: '#96D2F0',
+    borderWidth: 1.4,
+    borderRadius: 20,
+    height: 80,
+    width: 150,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 32,
   }
   
 });

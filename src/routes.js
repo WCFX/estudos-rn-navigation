@@ -12,11 +12,22 @@ const { Navigator, Screen } = createStackNavigator();
 export default function Routes(){
   return (
     <NavigationContainer>
-      <Navigator
-        headerMode={false}
-      >
-        <Screen name="Home" component={Home} />
-        <Screen name="About" component={About} />
+      <Navigator>
+        <Screen 
+        options={{
+          headerShown: false,
+          cardStyle: { backgroundColor: '#f29'}
+        }}
+          name="Home"
+          component={Home} />
+        <Screen 
+          options={{
+            headerShown: true,
+            cardStyle: { backgroundColor: '#f34', fontSize: 28},
+            title: 'Voltar Página Anterior'
+          }}
+          name="About"
+          component={About} />
       </Navigator>
     </NavigationContainer>
   );
