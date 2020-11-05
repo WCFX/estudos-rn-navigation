@@ -35,9 +35,9 @@ const About = () => {
             <Text style={styles.buttonText}>Voltar</Text>
           </TouchableOpacity>
 
-          <BorderlessButton onPress={() => {}} style={styles.buttonPlus} >
+          {/* <BorderlessButton onPress={() => {}} style={styles.buttonPlus} >
             <Feather name="plus" size={24} color="#15B6D6" />
-          </BorderlessButton>
+          </BorderlessButton> */}
       </View>
     </SafeAreaView>
   )
