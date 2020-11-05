@@ -25,11 +25,10 @@ const About = () => {
 
       <View style={styles.contentText}>
         <Text style={styles.title}>Olá {name}</Text>
-        <Text style={styles.lorem} >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Nobis dolorem, distinctio tenetur quasi quisquam, adipisci reiciendis 
-          soluta ullam repellat aliquid nam voluptates,
-          nostrum nesciunt pariatur unde voluptatum quo modi ducimus earum odio 
-          sequi? Quidem nihil fugit dicta possimus ipsam corporis.
+        <Text style={styles.lorem} >A SpaceX está contratando colaboradores
+        que se propoem entrar em um foguete e cair diretamente na boca do
+        vulcão, nós nos propusemos ajudar todos os nossos colabores a chegar
+        no objetivo.{name} O que acha de embarcar nesse foguete ???
         </Text>
 
           <TouchableOpacity style={styles.button} onPress={handleBack}>

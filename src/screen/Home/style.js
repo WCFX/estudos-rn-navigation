@@ -12,7 +12,7 @@ const style = StyleSheet.create({
   title: {
     fontSize: 32,
     fontFamily: 'Nunito_700Bold',
-    color: '#156e44',
+    color: '#156eee',
     textAlign: 'center',
   },
   contentText: {
@@ -22,7 +22,7 @@ const style = StyleSheet.create({
   },
   lorem: {
     fontSize: 16,
-    color: '#044444',
+    color: '#111',
     textAlign: 'center',
     marginVertical: 10,
     fontFamily: 'Poppins_400Regular',

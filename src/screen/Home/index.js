@@ -12,6 +12,7 @@ const Home = () => {
 
   const navigation = useNavigation();
 
+
   function handleSubmit() {
     navigation.navigate('About', {name})
   }
@@ -20,12 +21,12 @@ const Home = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.contentText}>
 
-        <Text style={styles.title}>Queremos saber{"\n"} mais sobre você !!</Text>
-        <Text style={styles.lorem}>Somos uma empresa interessada em você,
-        para que possamos conhecer mais o nosso candidato por favor,
-        coloque o seu nome no input abaixo para que possamos conhecer melhor
-        e traçar o melhor perfil !!
+        <Text style={styles.title}>Queremos saber mais {"\n"}sobre você, vamos lá?!?</Text>
+        <Text style={styles.lorem}>Para que possamos conhece-lo mais a fundo 
+        por favor, coloque o seu nome no input abaixo, assim podemos nos comunicar 
+        melhor. O que achas? Vamos lá...
         </Text>
+
         <TextInput 
           placeholder="Coloque seu nome aqui"
           style={styles.input}

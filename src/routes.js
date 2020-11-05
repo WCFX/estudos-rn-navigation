@@ -23,8 +23,7 @@ export default function Routes(){
         <Screen 
           options={{
             headerShown: true,
-            cardStyle: { backgroundColor: '#f34', fontSize: 28},
-            title: 'Voltar Página Anterior'
+            title: 'Página Anterior'
           }}
           name="About"
           component={About} />
