@@ -16,10 +16,20 @@ const Home = () => {
 
   return(
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Olá Mundo de merda</Text>
-      <TouchableOpacity style={styles.button} onPress={handleSubmit}>
-        <Text style={styles.buttonText}>Enviar</Text>
-      </TouchableOpacity>
+      <View style={styles.contentText}>
+
+        <Text style={styles.title}>Hello World !!!</Text>
+        <Text style={styles.lorem}>Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Error minima blanditiis, sequi inventore, non adipisci
+          quisquam et hic optio corporis 
+          commodi ab animi asperiores vel cupiditate nemo quia earum mollitia
+          cumque! Architecto nihil amet dolorum dignissimos, repudiandae eum ab a!
+        </Text>
+        <TouchableOpacity style={styles.button} onPress={handleSubmit}>
+          <Text style={styles.buttonText}>Enviar</Text>
+        </TouchableOpacity>
+        
+      </View>
     </SafeAreaView>
   )
 };

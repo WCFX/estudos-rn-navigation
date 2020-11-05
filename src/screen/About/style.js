@@ -15,7 +15,9 @@ const style = StyleSheet.create({
     width: '80%',
   },
   title: {
-    fontSize: 22,
+    fontSize: 32,
+    fontFamily: 'Nunito_700Bold',
+    color: '#156e44'
   },
   lorem: {
     fontSize: 16,
@@ -23,6 +25,7 @@ const style = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 30,
     marginVertical: 10,
+    fontFamily: 'Poppins_400Regular',
   },
   button: {
     padding: 20,
@@ -34,6 +37,7 @@ const style = StyleSheet.create({
   buttonText: {
     fontSize: 22,
     color: '#FFF',
+    fontFamily: 'Archivo_600SemiBold',
   }
   
 });
